@@ -1,0 +1,49 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+    align-items: center;
+    background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  }
+  .navMenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    align-items: center;
+  }
+  .navMenu > h1 {
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+  }
+  .metaImg {
+    width: 233px;
+    height: 36.67px;
+  }
+  .connect {
+    width: 170px;
+    height: 48px;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 5px auto;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  }
