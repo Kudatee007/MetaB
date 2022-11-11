@@ -47,3 +47,47 @@
     margin: 5px auto;
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   }
+  @media (max-width: 1100px) {
+    .navMenu {
+      gap: 30px;
+    }
+  }
+  @media (max-width: 900px) {
+    .navMenu {
+      gap: 20px;
+    }
+    .navMenu > h1 {
+      font-size: 17px;
+    }
+  }
+  @media (max-width: 900px) {
+    .navMenu {
+      gap: 17px;
+    }
+  }
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .navMenu {
+      position: fixed;
+      opacity: 0;
+      top: 70px;
+      flex-direction: column;
+      gap: 0px;
+      transition: 0.4s;
+    }
+    .navMenu-NX {
+      opacity: 1;
+    }
+    .navMenus {
+      position: fixed;
+      opacity: 0;
+      top: 270px;
+      gap: 10px;
+      transition: 0.4s;
+    }
+    .navMenus-NX {
+      opacity: 1;
+    }
+  }
