@@ -1,12 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Rent {
   font-family: "Red Rose";
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  line-height: 140%;
+  line-height: 120%;
   letter-spacing: -0.02em;
   color: #434343;
   width: 20ch;
+  padding-bottom: 30px;
 }
 .Rent_span {
   color: #a02279;
@@ -19,6 +24,7 @@
   line-height: 35px;
   color: #434343;
   width: 45ch;
+  padding-bottom: 40px;
 }
 .inP {
   display: flex;
@@ -30,6 +36,7 @@
   background: rgba(247, 247, 247, 0.1);
   border: 1px solid #a3a3a3;
   border-radius: 8px 0px 0px 8px;
+  padding-left: 16px;
 }
 .inP > button {
   height: 57px;
@@ -47,15 +54,15 @@
 }
 .Meta1 {
   display: flex;
-  justify-content: space-around;
-  padding: 90px 50px;
-  
+  justify-content: space-between;
+  padding: 90px 105px;
+  box-sizing: border-box;
+  padding-right: 130px; 
 }
 .metaimg {
   display: flex;
   gap: 8px;
  
-  
 }
 .metaimg2 {
     display: flex;
@@ -64,7 +71,6 @@
 }
 .metaimg2 > img {
     width: 234px;
-    height: 176px;
 }
 
 .met1 {
@@ -77,5 +83,312 @@
 }
 .metaimg1 > img {
     width: 234px;
-    height: 176px;
 }
+.metaimgg{
+    padding-top: 50px;
+}
+@media (max-width: 1300px) {
+.Meta1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 85px;
+    box-sizing: border-box;
+    padding-right: 110px; 
+  }
+}
+.opensea{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+}
+.opensea > img {
+    width: 179px;
+}
+@media (max-width: 1200px) {
+    .metaimg1 > img {
+      width: 214px;
+  
+  }
+  .metaimg2 > img {
+      width: 214px;
+  
+  }
+  .Meta1 {
+      padding: 90px 85px;
+      padding-right: 110px; 
+    }
+    .Rent{
+        font-size: 52px;
+    }
+    .RentP{
+       font-size: 22px;
+    }
+    .inP > input {
+        width: 300px;
+    }
+    .inP > button {
+        width: 170px;
+    }
+    .metaimgg{
+        padding-top: 35px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .Meta1 {
+        padding: 90px 60px;
+        padding-right: 70px; 
+        
+      }
+      .metaimg1 > img {
+        width: 204px;
+    
+    }
+    .metaimg2 > img {
+        width: 204px;
+    
+    }
+    .Rent{
+        font-size: 50px;
+    }
+    .RentP{
+       font-size: 21px;
+    }
+    .inP > input {
+        width: 280px;
+    }
+    .inP > button {
+        width: 160px;
+    }
+  }
+  @media (max-width: 1000px) {
+    .Meta1 {
+        padding: 90px 40px;
+        padding-right: 50px; 
+        
+      }
+      .metaimg1 > img {
+        width: 190px;
+    
+    }
+    .metaimg2 > img {
+        width: 190px;
+    
+    }
+    .Rent{
+        font-size: 45px;
+    }
+    .RentP{
+       font-size: 19px;
+    }
+    .inP > input {
+        width: 260px;
+    }
+    .inP > button {
+        width: 140px;
+    }
+    .metaimgg{
+        padding-top: 10px;
+    }
+  }
+  @media (max-width: 900px) {
+    .Meta1 {
+        padding: 90px 40px;
+        padding-right: 50px; 
+        
+      }
+      .metaimg1 > img {
+        width: 170px;
+    
+    }
+    .metaimg2 > img {
+        width: 170px;
+    
+    }
+    .Rent{
+        font-size: 43px;
+        padding-bottom: 20px;
+    }
+    .RentP{
+       font-size: 18px;
+       padding-bottom: 30px;
+    }
+    .inP > input {
+        width: 245px;
+    }
+    .inP > button {
+        width: 130px;
+    }
+    .metaimgg{
+        padding-top: 10px;
+    }
+  }
+  @media (max-width: 850px) {
+    .metaimg1 > img {
+        width: 160px;
+    }
+    .metaimg2 > img {
+        width: 160px;
+    }
+    .Rent{
+        font-size: 42px;
+    }
+    .RentP{
+       font-size: 17px;
+    }
+    .inP > input {
+        width: 235px;
+        height: 50px;
+    }
+    .inP > button {
+        width: 120px;
+        height: 52px;
+    }
+    .met1 {
+        padding-top: 77px;
+      }
+  }
+  @media (max-width: 800px) {
+    .metaimg1 > img {
+        width: 150px;
+    }
+    .metaimg2 > img {
+        width: 150px;
+    }
+    .Rent{
+        font-size: 40px;
+        padding-bottom: 14px;
+    }
+    .RentP{
+       font-size: 16px;
+       padding-bottom: 25px;
+    }
+    .inP > input {
+        width: 225px;
+        height: 50px;
+    }
+    .inP > button {
+        width: 110px;
+        height: 52px;
+    }
+    .met1 {
+        padding-top: 77px;
+      }
+  }
+  @media (max-width: 768px) {
+    .Meta1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Rent {
+        font-size: 56px;
+        width: 20ch;
+        padding-bottom: 30px;
+      }
+      .RentP {
+        font-size: 24px;
+        width: 45ch;
+        padding-bottom: 40px;
+      }
+      .inP > input {
+        height: 54px;
+        width: 330px;
+        padding-left: 16px;
+      }
+      .inP > button {
+        height: 57px;
+        width: 190px;
+        font-size: 16px;
+      }
+      .metaimg1 > img {
+        width: 100%;
+    }
+    .metaimg2 > img {
+        width: 100%;
+    }
+    .metaimgg{
+        padding-bottom: 90px;
+    }
+    .opensea > img {
+        width: 160px;
+    }
+  }
+  @media (max-width: 650px) {
+    .Rent {
+        font-size: 50px;
+      }
+      .RentP {
+        font-size: 20px;
+      }
+      .inP > input {
+        height: 54px;
+        width: 300px;
+      }
+      .inP > button {
+        height: 57px;
+        width: 140px;
+      }
+      .opensea > img {
+        width: 150px;
+    }
+  }
+  @media (max-width: 550px) {
+    .Rent {
+        font-size: 40px;
+      }
+      .RentP {
+        font-size: 18px;
+      }
+      .inP > input {
+        height: 54px;
+        width: 250px;
+      }
+      .inP > button {
+        height: 57px;
+        width: 130px;
+      }
+      .opensea > img {
+        width: 130px;
+    }
+  }
+  @media (max-width: 450px) {
+    .Rent {
+        font-size: 37px;
+        padding-bottom: 15px;
+      }
+      .RentP {
+        font-size: 16px;
+      }
+      .inP > input {
+        height: 50px;
+        width: 225px;
+      }
+      .inP > button {
+        height: 52px;
+        width: 115px;
+      }
+      .opensea > img {
+        width: 100px;
+    }
+  }
+  @media (max-width: 400px) {
+    .Rent {
+        font-size: 34px;
+        padding-bottom: 15px;
+      }
+      .RentP {
+        font-size: 14px;
+        line-height: 25px;
+      }
+      .inP > input {
+        height: 50px;
+        width: 190px;
+      }
+      .inP > button {
+        height: 52px;
+        width: 100px;
+      }
+      .opensea > img {
+        width: 90px;
+    }
+  }
