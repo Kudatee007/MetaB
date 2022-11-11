@@ -1,0 +1,164 @@
+.desert {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  width: 88%;
+  padding: 16px;
+}
+.desert > img {
+  padding-bottom: 10px;
+}
+.Des{
+    width: 100%;
+}
+.Desert {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+.desertT {
+  display: flex;
+  justify-content: space-between;
+}
+.King {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  padding-bottom: 7px;
+}
+.Night {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  padding-bottom: 7px;
+  text-align: right;
+}
+.Meta2 {
+  padding: 50px 100px;
+}
+.Meta2 > h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 40px;
+}
+@media (max-width: 1100px) {
+    .Meta2 {
+        padding: 50px 60px;
+      }
+      .Desert{
+        gap: 23px;
+        grid-row-gap: 15px;
+      }
+      .King{
+        font-size: 10px;
+      }
+      .Night{
+        font-size: 10px;
+      }
+      .star{
+        width: 80px;
+      }
+}
+@media (max-width: 950px) {
+      .King{
+        font-size: 9px;
+      }
+      .star{
+        width: 70px;
+      }
+}
+@media (max-width: 900px) {
+      .Desert{
+        gap: 30px;
+        grid-row-gap: 15px;
+      }
+      .star{
+        width: 65px;
+      }
+      .King{
+        width: 11ch;
+      }
+     
+}
+@media (max-width: 820px) {
+    .Night{
+      font-size: 9px;
+    }
+    .star{
+        width: 60px;
+      }
+}
+@media (max-width: 768px) {
+    .Desert {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 20px;
+      }
+      .King {
+        font-size: 13px;
+        width: auto;
+      }
+      .Night {
+        font-size: 12px;
+      }
+}
+@media (max-width: 650px) {
+    .King{
+        width: 11ch;
+        
+      }
+      .Night{
+        font-size: 12px;
+      }
+      .Meta2 > h1 {
+        font-size: 40px;
+      }
+}
+@media (max-width: 500px) {
+    .King{
+      font-size: 10px;
+    }
+    .Night{
+        font-size: 10px;
+      }
+      .Desert{
+        gap: 16px;
+      }
+      .Meta2 > h1 {
+        font-size: 35px;
+        line-height: 40px;
+      }
+      .desert{
+        padding: 10px;
+      }
+
+}
+@media (max-width: 450px) {
+    .King{
+        font-size: 9px;
+        
+      }
+      .Night{
+        font-size: 9px;
+      }
+      .Meta2 {
+        padding: 50px 40px;
+      }
+      .desert{
+        padding: 10px;
+      }
+     
+}
