@@ -146,19 +146,27 @@
       }
 
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .King{
-        font-size: 9px;
+        font-size: 12px;
+        width: auto;
         
       }
       .Night{
-        font-size: 9px;
+        font-size: 12px;
       }
       .Meta2 {
-        padding: 50px 40px;
+        padding: 50px 60px;
       }
-      .desert{
-        padding: 10px;
+      .Desert {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        gap: 20px;
       }
+      .star{
+        width: auto;
+      }
+    
      
 }

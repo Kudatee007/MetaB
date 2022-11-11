@@ -60,7 +60,7 @@
       font-size: 17px;
     }
   }
-  @media (max-width: 900px) {
+  @media (max-width: 800px) {
     .navMenu {
       gap: 17px;
     }
@@ -90,4 +90,5 @@
     .navMenus-NX {
       opacity: 1;
     }
+    
   }
