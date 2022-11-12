@@ -10,7 +10,7 @@ import opensea from './img/opensea.svg'
 
 const Meta1 = () => {
   return (
-    <div>
+    <div className="meeTT">
     <div className="Meta1">
       <div className="metaimgg">
         <h1 className="Rent">

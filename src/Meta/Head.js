@@ -3,6 +3,7 @@ import "./Head.css";
 import meta from "./img/Group.svg";
 import Metal from "./img/metal.svg";
 import Wale from "./img/wale.svg";
+import { Link } from 'react-router-dom'
 
 const Head = () => {
   const [expand, setExpand] = useState(false);
@@ -24,8 +25,8 @@ const Head = () => {
       <div className="Nav">
         <img src={meta} alt="" className="metaImg" />
         <div className={!expand ? "navMenu" : "navMenu navMenu-NX"}>
-          <h1>Home</h1>
-          <h1>Place to stay</h1>
+          <Link to='/'><h1 className="places">Home</h1></Link>
+          <Link to='/Place'><h1 className="places">Place to stay</h1></Link>
           <h1>NFTs</h1>
           <h1>Community</h1>
         </div>

@@ -1,0 +1,194 @@
+.MetaPlace {
+  padding: 120px 100px;
+}
+.ulList {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  list-style: none;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+}
+.desertss {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  width: 88%;
+  padding: 16px;
+}
+.Dess {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.Desertss {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+.desertTss {
+  display: flex;
+  justify-content: space-between;
+}
+.Kingss {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  padding-bottom: 7px;
+}
+.Nightss {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  padding-bottom: 7px;
+  text-align: right;
+}
+.MetPLace {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding-top: 75px;
+}
+@media (max-width: 1200px) {
+  .MetaPlace {
+    padding: 120px 70px;
+  }
+}
+@media (max-width: 1100px) {
+  .MetaPlace {
+    padding: 120px 60px;
+  }
+  .ulList {
+    font-size: 17px;
+  }
+  .Desertss {
+    gap: 23px;
+    grid-row-gap: 15px;
+  }
+  .Kingss {
+    font-size: 10px;
+  }
+  .Nightss {
+    font-size: 10px;
+  }
+  .starss {
+    width: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .MetaPlace {
+    padding: 150px 45px;
+  }
+  .ulList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+  .Li {
+    border: 1px solid rgb(223, 221, 221);
+    padding: 15px;
+    margin-top: 1px;
+  }
+  .Lii {
+    padding-top: 4px;
+  }
+}
+@media (max-width: 950px) {
+  .Kingss {
+    font-size: 9px;
+  }
+  .starss {
+    width: 70px;
+  }
+}
+@media (max-width: 900px) {
+  .MetPLace {
+    gap: 25px;
+    grid-row-gap: 15px;
+  }
+}
+@media (max-width: 850px) {
+  .Nightss {
+    font-size: 9px;
+  }
+  .starss {
+    width: 60px;
+  }
+  .Kingss {
+    font-size: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .MetPLace {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-top: 75px;
+  }
+  .Kingss {
+    font-size: 14px;
+  }
+  .Nightss {
+    font-size: 14px;
+  }
+  .starss {
+    width: auto;
+  }
+}
+@media (max-width: 700px) {
+  .Kingss {
+    font-size: 12px;
+  }
+  .Nightss {
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .Kingss {
+    width: 11ch;
+  }
+  .Nightss {
+    font-size: 11px;
+  }
+  .Li{
+    padding: 10px;
+}
+.Lii > img {
+    width: 120px;
+}
+}
+@media (max-width: 450px) {
+  .Kingss {
+    font-size: 10px;
+  }
+  .Nightss {
+    font-size: 10px;
+  }
+  .MetPLace {
+    gap: 13px;
+  }
+  .desertss {
+    padding: 10px;
+  }
+  .Lii > img {
+    width: 100px;
+}
+.ulList {
+    font-size: 16px;
+}
+}
+@media (max-width: 400px) {
+    .Lii > img {
+        width: 90px;
+    }
+}
+
