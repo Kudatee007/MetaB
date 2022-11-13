@@ -149,16 +149,6 @@ a.places{
   .navMenu-NX {
     left: 0;
   }
-  .navMenus {
-    position: fixed;
-    opacity: 0;
-    top: 270px;
-    gap: 10px;
-    transition: 0.4s;
-  }
-  .navMenus-NX {
-    opacity: 1;
-  }
   .Wallet {
     top: 40%;
   }
