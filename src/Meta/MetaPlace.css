@@ -87,7 +87,7 @@
 }
 @media (max-width: 1000px) {
   .MetaPlace {
-    padding: 150px 45px;
+    padding: 120px 45px;
   }
   .ulList {
     display: grid;
@@ -170,7 +170,6 @@
 @media (max-width: 480px) {
   .MetPLace {
     grid-template-columns: repeat(1, 1fr);
-    padding: 80px 15px;
   }
   .Kingss {
     font-size: 12px;
@@ -185,10 +184,19 @@
   .Lii{
     padding: 1px;
   }
+  .MetaPlace {
+    padding-top: 120px;
+  }
 }
 @media (max-width: 400px) {
     .Lii > img {
         width: 90px;
     }
+}
+@media (max-width: 370px) {
+  .ulList{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 

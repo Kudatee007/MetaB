@@ -120,3 +120,9 @@
         padding: 40px 40px;
       }
 }
+@media (max-width: 370px) {
+    .Foott{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

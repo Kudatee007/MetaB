@@ -159,6 +159,9 @@ a.places{
   .navMenus-NX {
     opacity: 1;
   }
+  .Wallet {
+    top: 40%;
+  }
 }
 @media (max-width: 700px) {
   .Wallet{
@@ -209,6 +212,7 @@ a.places{
 @media (max-width: 375px) {
   .Wallet{
     width: 280px;
+    top: 45%;
   }
   .wallet{
     gap: 30px;
