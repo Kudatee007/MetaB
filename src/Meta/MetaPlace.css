@@ -98,6 +98,7 @@
     border: 1px solid rgb(223, 221, 221);
     padding: 15px;
     margin-top: 1px;
+    border-radius: 1px;
   }
   .Lii {
     padding-top: 4px;
@@ -166,25 +167,24 @@
     width: 120px;
 }
 }
-@media (max-width: 450px) {
+@media (max-width: 480px) {
+  .MetPLace {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 80px 15px;
+  }
   .Kingss {
-    font-size: 10px;
+    font-size: 12px;
+    width: auto;
   }
   .Nightss {
-    font-size: 10px;
+    font-size: 12px;
   }
-  .MetPLace {
-    gap: 13px;
+  .ulList {
+    font-size: 15px;
   }
-  .desertss {
-    padding: 10px;
+  .Lii{
+    padding: 1px;
   }
-  .Lii > img {
-    width: 100px;
-}
-.ulList {
-    font-size: 16px;
-}
 }
 @media (max-width: 400px) {
     .Lii > img {
