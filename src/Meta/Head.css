@@ -137,7 +137,7 @@ a.places{
   }
   .navMenu {
     position: fixed;
-    opacity: 0;
+    left: -100%;
     top: 70px;
     flex-direction: column;
     gap: 15px;
@@ -147,7 +147,7 @@ a.places{
     padding-bottom: 150px;
   }
   .navMenu-NX {
-    opacity: 1;
+    left: 0;
   }
   .navMenus {
     position: fixed;
